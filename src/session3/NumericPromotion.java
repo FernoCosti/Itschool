@@ -9,8 +9,6 @@ public class NumericPromotion {
 
         char c = '1';
 
-
-
         int x = 5;
         double y =6.3;
         double result2 = x + y;
