@@ -1,4 +1,4 @@
-package Session4.Practice;
+package Session5;
 
 public class Practice {
     public static void main(String[] args) {
