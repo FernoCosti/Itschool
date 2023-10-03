@@ -1,30 +1,29 @@
-package session11.AbstracationPractice;
+package session11_abstraction.abstractionpractice;
 
-public abstract interface Playable {
+public interface Playable {
 
     void play();
-
     void stop();
 }
-class Music implements Playable{
+
+class Music implements Playable {
 
     @Override
     public void play() {
         System.out.println("Music is playing");
-
     }
 
     @Override
     public void stop() {
         System.out.println("Music has stopped");
-
     }
 }
-class Video implements Playable{
+
+class Video implements Playable {
+
     @Override
     public void play() {
         System.out.println("Video is playing");
-
     }
 
     @Override
